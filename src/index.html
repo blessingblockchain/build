@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SimpleStorage DApp</title>
 </head>
+
 <body>
     <h1>SimpleStorage DApp</h1>
     <label for="newValue">New Value:</label>
@@ -12,7 +14,10 @@
     <button onclick="setData()">Set Data</button>
     <p>Current Value: <span id="currentValue"></span></p>
 
-    <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js/dist/web3.min.js"></script>
-    <script src="app.js"></script>
+    <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js" type="application/javascript">
+    </script>
+
+    <script src="./app.js"></script>
 </body>
+
 </html>
